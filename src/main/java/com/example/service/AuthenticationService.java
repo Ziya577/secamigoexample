@@ -1,9 +1,9 @@
 package com.example.service;
 
-import com.example.auth.AuthenticationResponse;
-import com.example.auth.AuthenticationrRequest;
-import com.example.auth.RegisterRequest;
-import com.example.entity.Role;
+import com.example.model.AuthenticationResponse;
+import com.example.model.AuthenticationrRequest;
+import com.example.model.RegisterRequest;
+import com.example.enums.Role;
 import com.example.entity.User;
 import com.example.repository.UserRepository;
 import lombok.RequiredArgsConstructor;

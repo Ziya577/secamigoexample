@@ -1,4 +1,4 @@
-package com.example.payload;
+package com.example.model;
 
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class AddToCardPayload {
+public class AddToCardRequest {
 
     @NotNull(message = "Hesab nömrəsi boş ola bilməz")
     private String accountNumber;

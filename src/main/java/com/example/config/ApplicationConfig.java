@@ -1,4 +1,4 @@
-package com.example.jwt;
+package com.example.config;
 
 import com.example.repository.UserRepository;
 import lombok.RequiredArgsConstructor;

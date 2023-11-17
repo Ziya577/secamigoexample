@@ -1,4 +1,4 @@
-package com.example.auth;
+package com.example.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,7 +9,6 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class AuthenticationrRequest {
-    private String email;
-    String password;
+public class AuthenticationResponse {
+    private String token;
 }

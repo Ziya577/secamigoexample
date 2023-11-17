@@ -1,4 +1,4 @@
-package com.example.payload;
+package com.example.model;
 
 import jakarta.validation.constraints.DecimalMin;
 import jakarta.validation.constraints.NotBlank;
@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class CardToCardPayload {
+public class CardToCardRequest {
     @NotNull(message="Hesab nömrəsi boş ola bilməz")
     private String fromAccountNumber;
     @NotBlank(message = "Hədəf hesabın nömrəsi boş ola bilməz")

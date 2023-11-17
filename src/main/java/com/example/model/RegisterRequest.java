@@ -1,4 +1,4 @@
-package com.example.auth;
+package com.example.model;
 
 import jakarta.validation.constraints.*;
 import lombok.AllArgsConstructor;
